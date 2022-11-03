@@ -14,7 +14,9 @@ body{
     background-position-x: center;
     background-position-y: -715px;
 }
-
+::-webkit-scrollbar{
+    width: 12px;
+}
 #app{
     width: fit-content;
     margin: 52px auto;
