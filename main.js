@@ -22,7 +22,7 @@ function createCard(date, day, games){
 
 document.querySelector("#app").innerHTML = `
 <header>
-    <img src="./assets/logo.svg" alt="Logo da NLW">
+    <img id="logo" src="./assets/logo.svg" alt="Logo da NLW">
 </header>
 <main id="cards">
   ${createCard("24/11", "quinta",
